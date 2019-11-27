@@ -1,4 +1,4 @@
-package soap_lombok_inheritance.wrappers;
+package soaplombokinheritance.wrappers;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;

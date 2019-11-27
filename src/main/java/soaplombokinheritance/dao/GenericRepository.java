@@ -1,9 +1,9 @@
-package soap_lombok_inheritance.dao;
+package soaplombokinheritance.dao;
 
 import java.util.List;
 import java.util.Optional;
 
-import soap_lombok_inheritance.domain.BaseEntity;
+import soaplombokinheritance.domain.BaseEntity;
 
 public interface GenericRepository<T extends BaseEntity, S> {
 	public List<T> findAll();

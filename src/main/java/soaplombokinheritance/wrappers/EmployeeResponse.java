@@ -1,17 +1,15 @@
-package soap_lombok_inheritance.wrappers;
+package soaplombokinheritance.wrappers;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-import soap_lombok_inheritance.domain.concrete.Employee;
+import soaplombokinheritance.domain.concrete.Employee;
 
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "saveEmployeeRequest")
-public class EmployeeRequest {
+@XmlType(name = "saveEmployeeResponse")
+public class EmployeeResponse {
 
-	@XmlElement(required = true)
 	protected Employee employee;
 
 	public Employee getEmployee() {

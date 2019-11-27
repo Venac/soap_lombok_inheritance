@@ -1,4 +1,4 @@
-package soap_lombok_inheritance.domain.concrete;
+package soaplombokinheritance.domain.concrete;
 
 import javax.persistence.Entity;
 import javax.validation.constraints.NotEmpty;
@@ -15,7 +15,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
-import soap_lombok_inheritance.domain.BaseEntity;
+import soaplombokinheritance.domain.BaseEntity;
 
 @NoArgsConstructor
 @AllArgsConstructor

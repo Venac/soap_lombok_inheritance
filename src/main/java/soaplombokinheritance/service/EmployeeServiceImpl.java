@@ -1,12 +1,12 @@
-package soap_lombok_inheritance.service;
+package soaplombokinheritance.service;
 
 import java.util.List;
 
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 
-import soap_lombok_inheritance.dao.GenericRepository;
-import soap_lombok_inheritance.domain.concrete.Employee;
+import soaplombokinheritance.dao.GenericRepository;
+import soaplombokinheritance.domain.concrete.Employee;
 
 @Stateless
 public class EmployeeServiceImpl implements EmployeeService{

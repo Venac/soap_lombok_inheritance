@@ -1,4 +1,4 @@
-package soap_lombok_inheritance.domain;
+package soaplombokinheritance.domain;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

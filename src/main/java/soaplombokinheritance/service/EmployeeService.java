@@ -1,10 +1,10 @@
-package soap_lombok_inheritance.service;
+package soaplombokinheritance.service;
 
 import java.util.List;
 
 import javax.ejb.Local;
 
-import soap_lombok_inheritance.domain.concrete.Employee;
+import soaplombokinheritance.domain.concrete.Employee;
 
 @Local
 public interface EmployeeService {
